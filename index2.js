@@ -14,6 +14,6 @@ nextISSTimesForMyLocation()
   .then((passTimes) => {
     printPassTimes(passTimes);
   })
-  // .catch((error) => {
-  //   console.log("Houston, we have a problem: ", error);
-  // });
+  .catch((error) => {
+    console.log("Houston, we have a problem: ", error);
+  });
